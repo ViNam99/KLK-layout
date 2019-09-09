@@ -1,0 +1,64 @@
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  /* Hỗ trợ sửa những lỗi padding */
+  /* width = content + padding + border + margin */
+    /* Khai báo cho trình duyệt đừng cộng padding vào nha!!! */
+}
+.Wrapper{
+    width: 100%;
+    height: auto;
+}
+/* Header */
+.Header img {
+  width:  180px
+}
+/* Navbar */
+.navbar{
+    background-color: black ;
+    width: 100%;
+    height: auto;
+}
+.navbar ul{
+    list-style: none;
+    padding: 15px
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white
+}
+.navbar ul li {
+ /* Hoặc display : inline */
+    margin: 15px ;
+    display: inline;
+}
+/* Margin là khoảng cách giữa các thẻ vs nhau */
+/* Carousel */
+.carosel{
+    background-image: url("../img/slider_1.jpg") ;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /*  background-size: cover;  : phủ hết div  */
+    background-position: center;
+    margin-top: 10px;
+}
+.products__items{
+    float: left;
+    width: 25%;
+    padding: 15px
+}
+.products__items img {
+    width: 100%
+}
+.products__items button{
+    background-color: #D94D48;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border : 2px solid #D94D48;
+    cursor: pointer;
+}
+
+
