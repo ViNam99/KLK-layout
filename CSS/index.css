@@ -71,7 +71,8 @@
     margin-top: 20px
 }
 .intro__paragraph{
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    text-align: justify
 }
 .intro__room{
     width: 100%;
