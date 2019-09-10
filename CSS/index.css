@@ -44,6 +44,12 @@
     background-position: center;
     margin-top: 10px;
 }
+/* products */
+.products{
+    width: 100%;
+    height: auto;
+    float: left;
+}
 .products__items{
     float: left;
     width: 25%;
@@ -60,6 +66,7 @@
     border : 2px solid #D94D48;
     cursor: pointer;
 }
+
 /* intro */
 .intro span {
     color: red
@@ -122,4 +129,36 @@
 }
 .intro__room--right--top img , .intro__room--right--bottom img{
     width: 100%;
+}
+/* banner */
+.banner{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/nature.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+      /*  background-size: cover;  : phủ hết div  */
+}
+.banner__circle{
+    width: 14%;
+    height: 200px;
+    float: left;
+    background-color: rgb(247, 77, 77);
+    border-radius: 50%;
+    margin-left: 290px;
+    margin-top: 60px;
+    opacity: 0.8;
+}
+.banner__h1{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.banner__p{
+    color: white;
+    font-size: 20px;
+   text-align: center
 }
