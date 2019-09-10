@@ -160,5 +160,25 @@
 .banner__p{
     color: white;
     font-size: 20px;
-   text-align: center
+   text-align: center;
+}
+/* service */
+.service{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.service__content{
+    width: 75%;
+    height: 200px;
+    float: left;
+    margin-left: 300px
+}
+.service__item{
+    width: 25%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px
 }
