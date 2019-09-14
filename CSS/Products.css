@@ -69,3 +69,12 @@
 .intro__img{
     width: 100%
 }
+/* footer */
+.footer{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: center
+}
