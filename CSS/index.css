@@ -104,6 +104,9 @@
     height: auto;
     float: left;
 }
+.products h1{
+    text-align: center
+}
 .products__items{
     float: left;
     width: 25%;
