@@ -145,7 +145,7 @@
     width: 14%;
     height: 200px;
     float: left;
-    background-color: rgba(255, 0 , 0 , 0.5);    /* rgba giá trị cuối cùng là độ trong suốt */
+    background-color: rgba(255, 0 , 0 , 0.5);    /* rgba giá trị cuối cùng là độ trong suốt thay thế cho opacity*/
     border-radius: 50%;
     margin-left: 290px;
     margin-top: 60px;
