@@ -6,6 +6,9 @@
   /* width = content + padding + border + margin */
     /* Khai báo cho trình duyệt đừng cộng padding vào nha!!! */
 }
+.clear{
+    clear: both;
+}
 .Wrapper{
     width: 100%;
     height: auto;
