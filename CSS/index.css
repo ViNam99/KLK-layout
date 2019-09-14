@@ -45,6 +45,59 @@
     background-position: center;
     margin-top: 10px;
 }
+/* intro */
+.intro span {
+    color: red
+}
+.intro{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px
+}
+.intro__paragraph{
+    margin-bottom: 20px;
+    text-align: justify
+}
+.intro__room{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.intro__right , .intro__left {
+    padding: 15px;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.intro__left--top img{
+    width: 100%;
+    height: auto;
+}
+.intro__left--bottom img{
+    width: 100%;
+    height: 495px;
+}
+.intro__img1{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-right: 10px
+}
+.intro__img2{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-left: 10px
+}
+.intro__items{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.intro__items img{
+    width: 100%;
+}
 /* products */
 .products{
     width: 100%;
@@ -69,69 +122,7 @@
     margin-top: 10px
 }
 
-/* intro */
-.intro span {
-    color: red
-}
-.intro{
-    width: 100%;
-    height: auto;
-    float: left;
-    margin-top: 20px
-}
-.intro__paragraph{
-    margin-bottom: 20px;
-    text-align: justify
-}
-.intro__room{
-    width: 100%;
-    height: auto;
-    float: left;
-}
-.intro__room--right , .intro__room--left{
-    padding: 15px
-}
 
-.intro__room--left , .intro__room--right{
-    width: 50%;
-    height: auto;
-    float: left;
-}
-.intro__room--left--top img{
-    width: 100%;
-    height: auto;
-}
-.intro__room--left--bottom img{
-    width: 100%;
-    height: 495px;
-}
-.intro__room--left--top--left{
-    width: 50%;
-    height: auto;
-    float: left;
-    padding-right: 10px
-}
-.intro__room--left--top--right{
-    width: 50%;
-    height: auto;
-    float: left;
-    padding-left: 10px
-}
-.intro__room--left--bottom{
-    width: 100%;
-    height: auto;
-    margin-top: 15px;
-    float: left;
-}
-.intro__room--right--bottom{
-    width: 100%;
-    height: auto;
-    margin-top: 15px;
-    float: left;
-}
-.intro__room--right--top img , .intro__room--right--bottom img{
-    width: 100%;
-}
 /* banner */
 .banner{
     margin-top: 10px;
