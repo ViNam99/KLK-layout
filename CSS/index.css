@@ -140,6 +140,7 @@
     background-size: cover; 
     background-position: center;
       /*  background-size: cover;  : phủ hết div  */
+      position: relative;
 }
 .banner__circle{
     width: 14%;
@@ -147,10 +148,13 @@
     float: left;
     background-color: rgba(255, 0 , 0 , 0.5);    /* rgba giá trị cuối cùng là độ trong suốt thay thế cho opacity*/
     border-radius: 50%;
-    margin-left: 290px;
-    margin-top: 60px;
+    /* margin-left: 290px; */
+    /* margin-top: 60px; */
     /* opacity: 0.8;  trong suốt*/ 
-    color: white
+    position: absolute;
+    top: 40px;
+    left: 250px;
+    color: white;
 }
 .banner__h1{
     text-align: center;
@@ -190,3 +194,14 @@
     float: left;
     margin-top: 15px
 }
+
+/* 
+position: có các giá trị sau :
+    top
+    left
+    right
+    bottom
+relative
+absolute : tách ra khỏi th cha và treo lơ lững trên web , set đi theo relative 
+
+*/
