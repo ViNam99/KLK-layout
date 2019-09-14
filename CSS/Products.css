@@ -5,3 +5,31 @@
     box-sizing: border-box   
 }
 /* header */
+.header{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.header__img{
+    width: 180px
+}
+
+/* navbar */
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white
+}
+.navbar ul li{
+    float: left;
+    margin: 15px;
+    margin-left: 25px
+}
