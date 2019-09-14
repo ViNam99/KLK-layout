@@ -9,6 +9,7 @@
 .Wrapper{
     width: 100%;
     height: auto;
+    float: left;
 }
 /* Header */
 .Header img {
@@ -181,4 +182,14 @@
     text-align: center;
     margin-top: 30px;
     margin-left: 10px
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-top: 15px
 }
